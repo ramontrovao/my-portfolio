@@ -9,12 +9,13 @@ interface HeaderContainerProps {
 export const HeaderContainer = styled.header`
   ${({ theme, menuState }: HeaderContainerProps) => css`
     position: fixed;
+    z-index: 2;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5rem;
-    background-color: ${theme["background"]};
+    background-color: ${theme["white"]};
 
     .menu {
       display: none;
