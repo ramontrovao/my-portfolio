@@ -7,7 +7,7 @@ import { ProjectCard } from "./components/ProjectCard";
 
 export function Projects() {
   return (
-    <ProjectsSection>
+    <ProjectsSection id="projects">
       <Title>
         <h2>Projetos</h2>
         <div></div>
@@ -22,7 +22,7 @@ export function Projects() {
         breakpoints={{
           0: {
             slidesPerView: 1,
-            spaceBetween: 50,
+            spaceBetween: 80,
           },
           // when window width is >= 480px
           768: {

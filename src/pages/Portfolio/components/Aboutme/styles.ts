@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 export const AboutmeContainer = styled.section`
   ${({ theme }) => css`
     display: flex;
+    min-height: 60vh;
     align-items: center;
     gap: 2.5rem;
     margin-top: -3rem;
@@ -10,6 +11,10 @@ export const AboutmeContainer = styled.section`
 
     img {
       width: 12.5rem;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
 
     div {

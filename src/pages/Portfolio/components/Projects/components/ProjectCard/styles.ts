@@ -4,9 +4,9 @@ export const ProjectCardContainer = styled.div`
   display: flex;
   flex-direction: column;
   background-color: ${({ theme }) => theme["white"]};
+  min-width: 20rem;
   min-height: 20rem;
-  border: 1px solid ${({ theme }) => theme["pink"]};
-  border-radius: 8px;
+  border: 2px solid ${({ theme }) => theme["pink"]};
 
   p,
   a {

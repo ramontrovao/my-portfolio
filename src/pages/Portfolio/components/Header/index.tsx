@@ -31,6 +31,7 @@ export function Header() {
         <a href="#intro">Início</a>
         <a href="#aboutme">Sobre mim</a>
         <a href="#projects">Projetos</a>
+        <a href="#contact">Contato</a>
         <a onClick={handleChangeTheme}>
           {theme === "light" ? <Sun size={25} /> : <Moon size={25} />}
         </a>

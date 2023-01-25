@@ -1,4 +1,9 @@
-import { ArrowDown, GithubLogo, LinkedinLogo } from "phosphor-react";
+import {
+  ArrowDown,
+  GithubLogo,
+  LinkedinLogo,
+  WhatsappLogo,
+} from "phosphor-react";
 import {
   ArrowDownContainer,
   Content,
@@ -30,6 +35,15 @@ export function Introduction() {
           <a href="https://github.com/ramontrovao" target="_blank">
             <div>
               <GithubLogo size={20} weight="fill" />
+            </div>
+          </a>
+
+          <a
+            href="https://api.whatsapp.com/send?phone=5527995785613"
+            target="_blank"
+          >
+            <div>
+              <WhatsappLogo size={20} weight="fill" />
             </div>
           </a>
         </SocialList>

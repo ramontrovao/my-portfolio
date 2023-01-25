@@ -86,7 +86,6 @@ export const Content = styled.div`
 
 export const ArrowDownContainer = styled.div`
   ${({ theme }) => css`
-    margin-top: -5rem;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -101,7 +100,7 @@ export const ArrowDownContainer = styled.div`
       height: 2rem;
       width: 2rem;
       background-color: ${theme["gray-200"]};
-      color: ${theme["white"]};
+      color: ${theme["pink"]};
       animation: infinite ArrowAnimation 2s;
     }
 
@@ -129,6 +128,7 @@ export const ArrowDownContainer = styled.div`
 
     @media (max-width: 768px) {
       margin-top: -2.5rem;
+      min-height: 35vh;
     }
   `}
 `;
@@ -148,6 +148,11 @@ export const SocialList = styled.div`
       height: 2.5rem;
       background-color: ${theme["gray-200"]};
       color: ${theme["background"]};
+      transition: 0.4s;
+
+      &:hover {
+        color: ${theme["pink"]};
+      }
     }
   `}
 `;

@@ -22,7 +22,7 @@ export function ProjectCard({
   tags,
 }: ProjectCardProps) {
   return (
-    <ProjectCardContainer id="projects">
+    <ProjectCardContainer>
       <img src={imgSrc} />
 
       <InfoWrapper>

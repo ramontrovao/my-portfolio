@@ -1,4 +1,5 @@
 import { Aboutme } from "./components/Aboutme";
+import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Introduction } from "./components/Introduction";
@@ -13,6 +14,7 @@ export function Portfolio() {
         <Introduction />
         <Aboutme />
         <Projects />
+        <Contact />
         <Footer />
       </PortfolioContainer>
     </>
