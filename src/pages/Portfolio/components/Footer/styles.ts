@@ -6,6 +6,7 @@ export const FooterContainer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: ${({ theme }) => theme["background"]};
   color: ${({ theme }) => theme["gray-200"]};
 
   span {

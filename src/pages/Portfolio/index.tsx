@@ -15,8 +15,8 @@ export function Portfolio() {
         <Aboutme />
         <Projects />
         <Contact />
-        <Footer />
       </PortfolioContainer>
+      <Footer />
     </>
   );
 }
