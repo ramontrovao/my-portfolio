@@ -8,7 +8,7 @@ export const IntroductionSection = styled.section`
   padding: 8rem 3rem;
 
   @media (max-width: 768px) {
-    padding: 5rem 1rem;
+    padding: 4.5rem 1rem;
 
     .square {
       display: none;
@@ -21,7 +21,7 @@ export const Content = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-    min-height: 75vh;
+    min-height: 65vh;
 
     span {
       color: ${theme["gray-200"]};
