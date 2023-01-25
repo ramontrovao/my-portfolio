@@ -36,7 +36,7 @@ export function Introduction() {
       </Content>
 
       <ArrowDownContainer>
-        <a href="projects">
+        <a href="aboutme">
           <div>
             <ArrowDown size={20} />
           </div>
