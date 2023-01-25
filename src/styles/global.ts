@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
     ::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme["background"]}; 
+    background: ${({ theme }) => theme["gray-100"]}; 
     }
     
     ::-webkit-scrollbar-thumb {

@@ -14,7 +14,7 @@ export const ProjectsSection = styled.section`
       height: 100%;
       padding: 1.5rem;
       cursor: grab;
-      background-color: ${({ theme }) => theme["background"]};
+      background-color: theme["background"]};
 
       @media (max-width: 1024px) {
         width: 100%;
