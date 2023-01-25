@@ -10,7 +10,10 @@ export const AboutmeContainer = styled.section`
     padding: 2rem 7rem;
 
     img {
-      width: 12.5rem;
+      width: 15rem;
+      height: 15rem;
+      border-radius: 8px;
+      border: 2px solid ${({ theme }) => theme["pink"]};
 
       @media (max-width: 768px) {
         display: none;

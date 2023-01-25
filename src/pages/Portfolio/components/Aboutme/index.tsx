@@ -3,7 +3,7 @@ import { AboutmeContainer } from "./styles";
 export function Aboutme() {
   return (
     <AboutmeContainer id="aboutme">
-      <img src="./assets/profileicon.svg" alt="" />
+      <img src="./assets/profileicon.webp" alt="" />
 
       <div>
         <h2>Sobre mim</h2>

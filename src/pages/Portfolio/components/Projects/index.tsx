@@ -25,10 +25,13 @@ export function Projects() {
             slidesPerView: 1,
             spaceBetween: 80,
           },
-          // when window width is >= 480px
-          768: {
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 80,
+          },
+          1250: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 40,
           },
         }}
         className="projects-swiper"
@@ -70,26 +73,6 @@ export function Projects() {
             productURL="https://www.ramontrovao.tech"
             repoURL="https://github.com/ramontrovao/my-portfolio"
             tags={["React", "Typescript"]}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <ProjectCard
-            projectName="Coffee Delivery"
-            imgSrc="./assets/coffee-delivery-preview.png"
-            productURL="https://bit.ly/coffeedeliveryrocket"
-            repoURL="https://github.com/ramontrovao/coffee-delivery"
-            tags={["React", "Typescript", "RadixUI"]}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <ProjectCard
-            projectName="Coffee Delivery"
-            imgSrc="./assets/coffee-delivery-preview.png"
-            productURL="https://bit.ly/coffeedeliveryrocket"
-            repoURL="https://github.com/ramontrovao/coffee-delivery"
-            tags={["React", "Typescript", "RadixUI"]}
           />
         </SwiperSlide>
       </Swiper>
