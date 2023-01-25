@@ -15,7 +15,8 @@ export function Projects() {
 
       <Swiper
         scrollbar={{
-          hide: true,
+          hide: false,
+          draggable: true,
         }}
         modules={[Scrollbar]}
         slidesPerView={3}
@@ -44,31 +45,31 @@ export function Projects() {
 
         <SwiperSlide>
           <ProjectCard
-            projectName="Coffee Delivery"
-            imgSrc="./assets/coffee-delivery-preview.png"
-            productURL="https://bit.ly/coffeedeliveryrocket"
-            repoURL="https://github.com/ramontrovao/coffee-delivery"
-            tags={["React", "Typescript", "RadixUI"]}
+            projectName="Todo List"
+            imgSrc="./assets/todolist-preview.png"
+            productURL="https://todo-list-ramontrovao.vercel.app/"
+            repoURL="https://github.com/ramontrovao/todo-list"
+            tags={["React", "Typescript", "Sass"]}
           />
         </SwiperSlide>
 
         <SwiperSlide>
           <ProjectCard
-            projectName="Coffee Delivery"
-            imgSrc="./assets/coffee-delivery-preview.png"
-            productURL="https://bit.ly/coffeedeliveryrocket"
-            repoURL="https://github.com/ramontrovao/coffee-delivery"
-            tags={["React", "Typescript", "RadixUI"]}
+            projectName="Pomodoro App"
+            imgSrc="./assets/pomodoro-preview.png"
+            productURL="https://pomodoro-smoky-five.vercel.app/"
+            repoURL="https://github.com/ramontrovao/pomodoro"
+            tags={["React", "Typescript"]}
           />
         </SwiperSlide>
 
         <SwiperSlide>
           <ProjectCard
-            projectName="Coffee Delivery"
-            imgSrc="./assets/coffee-delivery-preview.png"
-            productURL="https://bit.ly/coffeedeliveryrocket"
-            repoURL="https://github.com/ramontrovao/coffee-delivery"
-            tags={["React", "Typescript", "RadixUI"]}
+            projectName="Meu portfólio"
+            imgSrc="./assets/portfolio-preview.png"
+            productURL="https://www.ramontrovao.tech"
+            repoURL="https://github.com/ramontrovao/my-portfolio"
+            tags={["React", "Typescript"]}
           />
         </SwiperSlide>
 

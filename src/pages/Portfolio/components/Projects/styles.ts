@@ -22,9 +22,7 @@ export const ProjectsSection = styled.section`
     }
 
     .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
+      background: transparent;
 
       /* Center slide text vertically */
       display: -webkit-box;
@@ -39,6 +37,14 @@ export const ProjectsSection = styled.section`
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+    }
+
+    .swiper-scrollbar {
+      background-color: ${({ theme }) => theme["gray-100"]};
+    }
+
+    .swiper-scrollbar-drag {
+      background-color: ${({ theme }) => theme["pink"]};
     }
   `}
 `;

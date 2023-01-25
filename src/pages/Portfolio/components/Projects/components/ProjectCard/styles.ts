@@ -7,6 +7,7 @@ export const ProjectCardContainer = styled.div`
   min-width: 20rem;
   min-height: 20rem;
   border: 2px solid ${({ theme }) => theme["pink"]};
+  border-radius: 8px;
 
   p,
   a {
@@ -14,6 +15,8 @@ export const ProjectCardContainer = styled.div`
   }
 
   img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     width: 100%;
     height: 13rem;
     object-fit: cover;
