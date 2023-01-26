@@ -16,6 +16,21 @@ export const IntroductionSection = styled.section`
   }
 `;
 
+export const ContentWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    transition: 10s;
+    min-width: 30rem;
+    min-height: 30rem;
+
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+`;
+
 export const Content = styled.div`
   ${({ theme }) => css`
     display: flex;
