@@ -7,12 +7,13 @@ export function Header() {
   const { changeTheme, theme } = useContext(ThemeContext);
   const [menuState, toggleMenu] = useState(false);
 
-  function handleChangeTheme() {
-    changeTheme();
-  }
-
   function handleToggleMenu() {
     toggleMenu(!menuState);
+  }
+
+  function handleChangeTheme() {
+    changeTheme();
+    handleToggleMenu();
   }
 
   return (
@@ -28,10 +29,18 @@ export function Header() {
       </div>
 
       <nav>
-        <a href="#intro">Início</a>
-        <a href="#aboutme">Sobre mim</a>
-        <a href="#projects">Projetos</a>
-        <a href="#contact">Contato</a>
+        <a href="#intro" onClick={handleToggleMenu}>
+          Início
+        </a>
+        <a href="#aboutme" onClick={handleToggleMenu}>
+          Sobre mim
+        </a>
+        <a href="#projects" onClick={handleToggleMenu}>
+          Projetos
+        </a>
+        <a href="#contact" onClick={handleToggleMenu}>
+          Contato
+        </a>
         <a onClick={handleChangeTheme}>
           {theme === "light" ? <Sun size={25} /> : <Moon size={25} />}
         </a>
