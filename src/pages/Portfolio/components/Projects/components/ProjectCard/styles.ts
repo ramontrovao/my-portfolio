@@ -11,7 +11,8 @@ export const ProjectCardContainer = styled.div`
 
   p,
   a {
-    color: ${({ theme }) => theme["gray-200"]};
+    font-weight: bold;
+    color: ${({ theme }) => theme["black"]};
   }
 
   img {
@@ -51,9 +52,13 @@ export const WebsiteInfos = styled.div`
   padding: 0.5rem;
   border-radius: 8px;
 
+  p {
+    font-size: 1.25rem;
+  }
+
   div {
     a {
-      color: ${({ theme }) => theme["gray-200"]};
+      transition: 0.3s;
 
       &:hover {
         color: ${({ theme }) => theme["background"]};

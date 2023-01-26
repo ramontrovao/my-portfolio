@@ -17,6 +17,11 @@ export const HeaderContainer = styled.header`
     padding: 1.5rem 5rem;
     background-color: ${theme["white"]};
 
+    a,
+    p {
+      color: ${theme["black"]};
+    }
+
     .menu {
       display: none;
 
@@ -30,7 +35,7 @@ export const HeaderContainer = styled.header`
       color: ${theme["pink"]};
 
       strong {
-        color: ${theme["gray-200"]};
+        color: ${theme["black"]};
       }
     }
 
@@ -42,7 +47,7 @@ export const HeaderContainer = styled.header`
 
       a {
         text-decoration: none;
-        color: ${theme["gray-200"]};
+        transition: 0.2s;
 
         &:hover {
           color: ${theme["pink"]};

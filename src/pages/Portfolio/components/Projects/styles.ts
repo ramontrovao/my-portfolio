@@ -10,21 +10,20 @@ export const ProjectsSection = styled.section`
     min-height: 100vh;
 
     .projects-swiper {
-      width: 80%;
+      width: 100%;
       height: 100%;
       padding: 1.5rem;
       cursor: grab;
       background-color: theme["background"]};
 
-      @media (max-width: 1024px) {
+      @media (max-width: 768px) {
         width: 100%;
-      }
+      } 
     }
 
     .swiper-slide {
       background: transparent;
 
-      /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
       display: -webkit-flex;

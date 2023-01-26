@@ -20,10 +20,13 @@ export const Content = styled.div`
   ${({ theme }) => css`
     display: flex;
     justify-content: center;
+    margin-left: 1.5rem;
     flex-direction: column;
     min-height: 65vh;
 
     span {
+      position: relative;
+      z-index: 1;
       color: ${theme["gray-200"]};
       font-size: 1.5rem;
     }
@@ -34,7 +37,16 @@ export const Content = styled.div`
       width: 1.75rem;
       height: 1.75rem;
       border-radius: 8px;
-      animation: infinite squareAnimation 5s;
+    }
+
+    #squareLeft {
+      top: 250px;
+      left: 60px;
+      animation: infinite leftSquareAnimation 5s;
+    }
+
+    #squareRight {
+      animation: infinite rightSquareAnimation 5s;
     }
 
     h1 {
@@ -53,7 +65,7 @@ export const Content = styled.div`
       z-index: 1;
     }
 
-    @keyframes squareAnimation {
+    @keyframes rightSquareAnimation {
       0% {
         top: 325px;
         left: 425px;
@@ -80,6 +92,38 @@ export const Content = styled.div`
         top: 325px;
         left: 425px;
       }
+    }
+
+    @keyframes leftSquareAnimation {
+      0% {
+        top: 250px;
+        left: 60px;
+      }
+
+      25% {
+        top: 250px;
+        left: 30px;
+      }
+
+      50% {
+        top: 300px;
+        left: 30px;
+        transform: rotate(360deg);
+      }
+
+      75% {
+        top: 300px;
+        left: 60px;
+      }
+
+      100% {
+        top: 250px;
+        left: 60px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      margin-left: 0;
     }
   `}
 `;

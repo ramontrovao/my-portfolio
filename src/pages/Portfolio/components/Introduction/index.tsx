@@ -15,9 +15,10 @@ export function Introduction() {
   return (
     <IntroductionSection id="intro">
       <Content>
+        <div className="square" id="squareLeft"></div>
         <span>Olá, eu sou</span>
         <h1>Ramon Pinheiro</h1>
-        <div className="square"></div>
+        <div className="square" id="squareRight"></div>
         <p>
           Um desenvolvedor front-end responsável por criar interfaces incríveis!
         </p>
