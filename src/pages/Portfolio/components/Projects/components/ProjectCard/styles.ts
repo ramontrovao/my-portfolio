@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProjectCardContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme["white"]};
+  background-color: ${({ theme }) => theme["background"]};
   min-width: 20rem;
   min-height: 20rem;
   border: 2px solid ${({ theme }) => theme["pink"]};
@@ -21,6 +21,11 @@ export const ProjectCardContainer = styled.div`
     width: 100%;
     height: 13rem;
     object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    min-width: 15rem;
+    min-height: 15rem;
   }
 `;
 

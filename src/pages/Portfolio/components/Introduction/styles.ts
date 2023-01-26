@@ -143,8 +143,8 @@ export const ArrowDownContainer = styled.div`
       align-items: center;
       height: 2rem;
       width: 2rem;
-      background-color: ${theme["gray-200"]};
-      color: ${theme["pink"]};
+      background-color: ${theme["pink"]};
+      color: ${theme["black"]};
       animation: infinite ArrowAnimation 2s;
     }
 
