@@ -15,11 +15,11 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5rem;
-    background-color: ${theme["white"]};
+    background-color: ${theme["headerbackground"]};
 
     a,
     p {
-      color: ${theme["black"]};
+      color: ${theme["gray-200"]};
     }
 
     .menu {
@@ -35,7 +35,7 @@ export const HeaderContainer = styled.header`
       color: ${theme["pink"]};
 
       strong {
-        color: ${theme["black"]};
+        color: ${theme["gray-200"]};
       }
     }
 
