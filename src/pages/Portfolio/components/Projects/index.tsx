@@ -48,6 +48,26 @@ export function Projects() {
 
         <SwiperSlide>
           <ProjectCard
+            projectName="Github Blog"
+            imgSrc="./assets/github-blog-preview.png"
+            productURL="https://github-blog-vert.vercel.app/"
+            repoURL="https://github.com/ramontrovao/github-blog"
+            tags={["React", "Typescript", "Axios"]}
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <ProjectCard
+            projectName="Meu portfólio"
+            imgSrc="./assets/portfolio-preview.png"
+            productURL="https://www.ramontrovao.tech"
+            repoURL="https://github.com/ramontrovao/my-portfolio"
+            tags={["React", "Typescript"]}
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <ProjectCard
             projectName="Todo List"
             imgSrc="./assets/todolist-preview.png"
             productURL="https://todo-list-ramontrovao.vercel.app/"
@@ -62,16 +82,6 @@ export function Projects() {
             imgSrc="./assets/pomodoro-preview.png"
             productURL="https://pomodoro-smoky-five.vercel.app/"
             repoURL="https://github.com/ramontrovao/pomodoro"
-            tags={["React", "Typescript"]}
-          />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <ProjectCard
-            projectName="Meu portfólio"
-            imgSrc="./assets/portfolio-preview.png"
-            productURL="https://www.ramontrovao.tech"
-            repoURL="https://github.com/ramontrovao/my-portfolio"
             tags={["React", "Typescript"]}
           />
         </SwiperSlide>

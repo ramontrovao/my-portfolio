@@ -145,10 +145,10 @@ export const Content = styled.div`
 
 export const ArrowDownContainer = styled.div`
   ${({ theme }) => css`
-    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -2rem;
 
     div {
       position: relative;

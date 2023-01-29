@@ -7,6 +7,7 @@ export const ProjectsSection = styled.section`
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 0 2rem;
     min-height: 100vh;
 
     .projects-swiper {

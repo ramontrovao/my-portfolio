@@ -7,7 +7,7 @@ export const AboutmeContainer = styled.section`
     align-items: center;
     gap: 2.5rem;
     margin-top: -3rem;
-    padding: 2rem 7rem;
+    padding: 2rem 3rem;
 
     img {
       width: 15rem;
