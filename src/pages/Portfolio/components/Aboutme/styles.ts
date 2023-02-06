@@ -14,6 +14,7 @@ export const AboutmeContainer = styled.section`
       height: 15rem;
       border-radius: 8px;
       border: 2px solid ${({ theme }) => theme["pink"]};
+      transform: rotate(5deg);
 
       @media (max-width: 768px) {
         display: none;
