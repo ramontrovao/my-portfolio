@@ -45,9 +45,14 @@ export const HeaderContainer = styled.header`
       gap: 1rem;
       cursor: pointer;
 
-      a {
+      a,
+      button {
         text-decoration: none;
         transition: 0.2s;
+        background: transparent;
+        border: 0;
+        color: ${theme["gray-200"]};
+        cursor: pointer;
 
         &:hover {
           color: ${theme["pink"]};

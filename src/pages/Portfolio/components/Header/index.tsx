@@ -41,9 +41,9 @@ export function Header() {
         <a href="#contact" onClick={handleToggleMenu}>
           Contato
         </a>
-        <a onClick={handleChangeTheme}>
+        <button onClick={handleChangeTheme}>
           {theme === "light" ? <Sun size={25} /> : <Moon size={25} />}
-        </a>
+        </button>
       </nav>
     </HeaderContainer>
   );

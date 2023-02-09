@@ -17,16 +17,12 @@ export const GlobalStyle = createGlobalStyle`
 
 
     ::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme["gray-100"]}; 
+    background: transparent; 
     }
     
     ::-webkit-scrollbar-thumb {
     background: ${({ theme }) => theme["pink"]}; 
     border-radius: 999px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-    background: ${({ theme }) => theme["gray-200"]}; 
     }
     }
 

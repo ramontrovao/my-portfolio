@@ -18,6 +18,7 @@ export const ContactContainer = styled.div`
     line-height: 1.2;
     color: ${({ theme }) => theme["gray-200"]};
     text-align: center;
+    margin-bottom: 2rem;
   }
 
   a {
@@ -25,7 +26,6 @@ export const ContactContainer = styled.div`
   }
 
   div {
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;

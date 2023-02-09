@@ -34,13 +34,20 @@ export function Introduction() {
             <a
               href="https://www.linkedin.com/in/ramon-pinheiro-230439260/"
               target="_blank"
+              title="Meu LinkedIn"
+              aria-label="Meu LinkedIn"
             >
               <div>
                 <LinkedinLogo size={20} weight="fill" />
               </div>
             </a>
 
-            <a href="https://github.com/ramontrovao" target="_blank">
+            <a
+              href="https://github.com/ramontrovao"
+              target="_blank"
+              title="Meu Github"
+              aria-label="Meu Github"
+            >
               <div>
                 <GithubLogo size={20} weight="fill" />
               </div>
@@ -49,6 +56,8 @@ export function Introduction() {
             <a
               href="https://api.whatsapp.com/send?phone=5527995785613"
               target="_blank"
+              title="Meu Whatsapp"
+              aria-label="Meu Whatsapp"
             >
               <div>
                 <WhatsappLogo size={20} weight="fill" />
