@@ -38,9 +38,13 @@ export function Header() {
         <a href="#projects" onClick={handleToggleMenu}>
           Projetos
         </a>
+        <a href="./assets/ramon_pinheiro_cv.pdf" onClick={handleToggleMenu}>
+          Currículo
+        </a>
         <a href="#contact" onClick={handleToggleMenu}>
           Contato
         </a>
+
         <button onClick={handleChangeTheme}>
           {theme === "light" ? <Sun size={25} /> : <Moon size={25} />}
         </button>
