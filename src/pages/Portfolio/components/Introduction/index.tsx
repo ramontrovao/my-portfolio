@@ -37,9 +37,7 @@ export function Introduction() {
               title="Meu LinkedIn"
               aria-label="Meu LinkedIn"
             >
-              <div>
-                <LinkedinLogo size={20} weight="fill" />
-              </div>
+              <LinkedinLogo size={20} weight="fill" />
             </a>
 
             <a
@@ -48,9 +46,7 @@ export function Introduction() {
               title="Meu Github"
               aria-label="Meu Github"
             >
-              <div>
-                <GithubLogo size={20} weight="fill" />
-              </div>
+              <GithubLogo size={20} weight="fill" />
             </a>
 
             <a
@@ -59,9 +55,7 @@ export function Introduction() {
               title="Meu Whatsapp"
               aria-label="Meu Whatsapp"
             >
-              <div>
-                <WhatsappLogo size={20} weight="fill" />
-              </div>
+              <WhatsappLogo size={20} weight="fill" />
             </a>
           </SocialList>
         </Content>
@@ -74,10 +68,12 @@ export function Introduction() {
       </ContentWrapper>
 
       <ArrowDownContainer>
-        <a href="#projects">
-          <div>
-            <ArrowDown size={20} />
-          </div>
+        <a
+          href="#projects"
+          title="Veja meus projetos"
+          aria-label="Veja meus projetos"
+        >
+          <ArrowDown size={20} />
         </a>
       </ArrowDownContainer>
     </IntroductionSection>

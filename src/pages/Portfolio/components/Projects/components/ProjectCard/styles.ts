@@ -62,11 +62,13 @@ export const WebsiteInfos = styled.div`
   }
 
   div {
+    line-height: 0;
+
     a {
       transition: 0.3s;
 
       &:hover {
-        color: ${({ theme }) => theme["background"]};
+        color: ${({ theme }) => theme["white"]};
       }
     }
   }

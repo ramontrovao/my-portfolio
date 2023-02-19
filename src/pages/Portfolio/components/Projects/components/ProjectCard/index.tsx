@@ -23,7 +23,7 @@ export function ProjectCard({
 }: ProjectCardProps) {
   return (
     <ProjectCardContainer>
-      <img src={imgSrc} />
+      <img src={imgSrc} alt="" />
 
       <InfoWrapper>
         <TechsList>
@@ -38,10 +38,20 @@ export function ProjectCard({
           <p>{projectName}</p>
 
           <div>
-            <a href={repoURL} target="_blank">
+            <a
+              href={repoURL}
+              target="_blank"
+              title="Veja no github"
+              aria-label="Veja no github"
+            >
               <GithubLogo size={25} />
             </a>
-            <a href={productURL} target="_blank">
+            <a
+              href={productURL}
+              target="_blank"
+              title="Veja em produção"
+              aria-label="Veja em produção"
+            >
               <Browsers size={25} />
             </a>
           </div>

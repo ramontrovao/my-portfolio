@@ -38,11 +38,20 @@ export function Projects() {
       >
         <SwiperSlide>
           <ProjectCard
+            projectName="Codesec"
+            imgSrc="./assets/codesec-preview.png"
+            productURL="https://codesec.vercel.app/"
+            repoURL="https://github.com/ramontrovao/codesec"
+            tags={["NextJS", "Typescript", "Styled-components"]}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ProjectCard
             projectName="Thunder Shop"
             imgSrc="./assets/thunder-shop-preview.png"
             productURL="https://thunder-shop.vercel.app/"
             repoURL="https://github.com/ramontrovao/thunder-shop"
-            tags={["NextJS", "Typescript"]}
+            tags={["NextJS", "Typescript", "RadixUI"]}
           />
         </SwiperSlide>
 

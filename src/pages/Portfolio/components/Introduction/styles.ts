@@ -143,6 +143,30 @@ export const Content = styled.div`
   `}
 `;
 
+export const SocialList = styled.div`
+  ${({ theme }) => css`
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 999px;
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: ${theme["gray-200"]};
+      color: ${theme["background"]};
+      transition: 0.4s;
+
+      &:hover {
+        color: ${theme["pink"]};
+      }
+    }
+  `}
+`;
+
 export const ArrowDownContainer = styled.div`
   ${({ theme }) => css`
     display: flex;
@@ -150,7 +174,7 @@ export const ArrowDownContainer = styled.div`
     align-items: center;
     margin-top: -2rem;
 
-    div {
+    a {
       position: relative;
       display: flex;
       border-radius: 999px;
@@ -188,30 +212,6 @@ export const ArrowDownContainer = styled.div`
     @media (max-width: 768px) {
       margin-top: -2.5rem;
       min-height: 35vh;
-    }
-  `}
-`;
-
-export const SocialList = styled.div`
-  ${({ theme }) => css`
-    margin-top: 1rem;
-    display: flex;
-    gap: 0.5rem;
-
-    div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 999px;
-      width: 2.5rem;
-      height: 2.5rem;
-      background-color: ${theme["gray-200"]};
-      color: ${theme["background"]};
-      transition: 0.4s;
-
-      &:hover {
-        color: ${theme["pink"]};
-      }
     }
   `}
 `;
