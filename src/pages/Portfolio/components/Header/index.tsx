@@ -45,7 +45,11 @@ export function Header() {
           Contato
         </a>
 
-        <button onClick={handleChangeTheme}>
+        <button
+          onClick={handleChangeTheme}
+          title="Mudar tema"
+          aria-label="Mudar tema"
+        >
           {theme === "light" ? <Sun size={25} /> : <Moon size={25} />}
         </button>
       </nav>

@@ -61,9 +61,9 @@ export function Introduction() {
         </Content>
 
         {theme === "light" ? (
-          <img src="./assets/logolight.png" />
+          <img src="./assets/logolight.png" alt="" />
         ) : (
-          <img src="./assets/logodark.png" />
+          <img src="./assets/logodark.png" alt="" />
         )}
       </ContentWrapper>
 
