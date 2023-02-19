@@ -3,7 +3,7 @@ export const DarkTheme = {
   black: "#141414",
   headerbackground: "#141414",
   background: "#0c0c0c",
-  pink: "#FEB0F7",
+  pink: "#fd6df0",
   "gray-100": "#FFF",
   "gray-200": "#FFF",
 };
