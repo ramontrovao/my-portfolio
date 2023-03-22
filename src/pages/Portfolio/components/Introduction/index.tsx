@@ -26,8 +26,8 @@ export function Introduction() {
           <h1>Ramon Pinheiro</h1>
           <div className="square" id="squareRight"></div>
           <p>
-            Um desenvolvedor front-end responsável por criar interfaces
-            incríveis!
+            Um desenvolvedor mobile fullstack responsável por criar interfaces e
+            apps incríveis!
           </p>
 
           <SocialList>
