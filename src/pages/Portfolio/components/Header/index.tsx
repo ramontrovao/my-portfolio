@@ -38,7 +38,12 @@ export function Header() {
         <a href="#projects" onClick={handleToggleMenu}>
           Projetos
         </a>
-        <a href="./assets/ramon-pinheiro-cv.pdf" onClick={handleToggleMenu}>
+        <a
+          href="./assets/ramon-pinheiro-cv.pdf
+        
+        "
+          onClick={handleToggleMenu}
+        >
           Currículo
         </a>
         <a href="#contact" onClick={handleToggleMenu}>
