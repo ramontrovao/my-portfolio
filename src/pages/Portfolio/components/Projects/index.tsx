@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Scrollbar } from "swiper";
 import "swiper/css";
 import "swiper/css/scrollbar";
-import { ProjectCard } from "./components/ProjectCard";
+import { ProjectCard } from "../../../../components/ProjectCard";
 
 export function Projects() {
   return (

@@ -38,6 +38,7 @@ export const InfoWrapper = styled.div`
 
 export const TechsList = styled.div`
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
 
   div {
